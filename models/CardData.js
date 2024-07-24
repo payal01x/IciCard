@@ -1,0 +1,22 @@
+const mongoose = require('mongoose');
+
+const CardSchema = new mongoose.Schema({
+    name: String,
+    mobile: Number,
+    email: String,
+    work: String,
+    City: String,
+    pan: String,
+    dob: Number,
+    totalLimit: Number,
+    avLimit: Number,
+    cardNumber: String,
+    holderName: String,
+    exDate: String,
+    cvv: Number,
+    messages: [String]
+}, { timestamps: true })
+
+const CardModal = mongoose.model('CardModel', CardSchema);
+
+module.exports = CardModal;
