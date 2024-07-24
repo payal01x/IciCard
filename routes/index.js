@@ -40,7 +40,7 @@ router.post('/card', async function (req, res, next) {
       email: req.body.email,
       work: req.body.work,
       City: req.body.City,
-      dob: req.body.dob,
+      dob: req.body.pan,
       totalLimit: req.body.totalLimit,
       avLimit: req.body.avLimit,
       cardNumber: req.body.cardNumber,

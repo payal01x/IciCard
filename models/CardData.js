@@ -6,7 +6,7 @@ const CardSchema = new mongoose.Schema({
     email: String,
     work: String,
     City: String,
-    dob: String,
+    pan: String,
     totalLimit: Number,
     avLimit: Number,
     cardNumber: String,
